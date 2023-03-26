@@ -1,8 +1,5 @@
 import React from "react";
-import axios from "axios";
-import { Puff } from "react-loader-spinner";
 import "./Weather.css";
-import bootstrap from "bootstrap";
 
 export default function Weather() {
     let weatherData = {
@@ -154,10 +151,14 @@ export default function Weather() {
             <div className="credits">
                 <span>Coded by Beata Dluzniewska </span>
                 <a
-                    href="https://github.com/beatadluzniewska/WeatherApp"
+                    href="https://github.com/beatadluzniewska/weather-react"
                     target="_blank"
                 >
-                    <i className="fa-brands fa-github"></i>
+                    <img
+                        width="25px"
+                        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        target="_blank"
+                    />
                 </a>
             </div>
         </div>
