@@ -70,12 +70,15 @@ export default function Weather() {
                                                 </span>
                                             </h1>
                                             <span className="units">
-                                                <a href="#" className="active">
+                                                <a
+                                                    href="ttps://github.com/beatadluzniewska/weather-react"
+                                                    className="active"
+                                                >
                                                     °C{" "}
                                                 </a>
                                                 <span> | </span>
                                                 <a
-                                                    href="#"
+                                                    href="ttps://github.com/beatadluzniewska/weather-react"
                                                     className="inactive"
                                                 >
                                                     °F
@@ -153,11 +156,12 @@ export default function Weather() {
                 <a
                     href="https://github.com/beatadluzniewska/weather-react"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <img
                         width="25px"
                         src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
-                        target="_blank"
+                        alt="github"
                     />
                 </a>
             </div>
